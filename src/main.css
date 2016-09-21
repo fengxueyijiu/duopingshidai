@@ -80,17 +80,33 @@ body{
 .content-main{
   flex-grow: 1;
   overflow-y: scroll;
+  display: flex;
 }
 .home-container{
   background-image: url(./images/bg.jpg);
-  background-size: cover;
   background-position: 50% 50%;
+  width: 100%;
+  display: flex;
 
+}
+.home-cover{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
-  flex-direction: column;
-  flex-grow: 1;
-  height: 100vh;
-  -webkit-box-pack:center;
-  -webkit-justify-content:center
+}
+.home-item{
+  color:#fff;
+  text-align: center;
+  margin:0 auto;
+}
+.home-btn{
+  border:none;
+  border-radius: 2px;
+  background-color: #ff4081;
+  padding: 8px 20px;
+  font-size: 16px;
+}
+.home-btn a:hover,a:focus{
+  background-color: #00bcd4;
 }
