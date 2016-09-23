@@ -147,7 +147,8 @@ body{
 
 }
 .work-card img{
-  width: 100%;
+  width: 80%;
+  height: 40vh;
   display: block;
 }
 .work -text{
@@ -159,3 +160,12 @@ body{
   padding-left: 10px;
   border-radius: 0px 0px 5px 5px;
 }
+.about-container{
+    background-color: #bada55;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 35vh;
+  color: #fff;
+  width: 100%;
+
+ }
